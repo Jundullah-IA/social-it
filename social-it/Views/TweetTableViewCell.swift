@@ -125,7 +125,6 @@ class TweetTableViewCell: UITableViewCell {
         retweetButton.addTarget(self, action: #selector(didTapRetweet), for: .touchUpInside)
         likeButton.addTarget(self, action: #selector(didTapLike), for: .touchUpInside)
         shareButton.addTarget(self, action: #selector(didTapShare), for: .touchUpInside)
-
     }
     
     private func configureConstraints() {
